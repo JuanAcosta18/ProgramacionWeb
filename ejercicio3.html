@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang= "en"
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio3</title>
+    </head>
+    <style>
+        h3 {
+            color: black;
+            text-align:center;
+        }
+        form{
+            align-content: center;
+        }
+        table{
+            width: 600px;
+            height: 80px;
+            border: 1px solid #000;
+            border-collapse: collapse;
+            align-content: center;
+        }
+        td{
+            padding: 5px
+        }
+        #fecha{
+            width: 300px;
+        }
+    </style>
+    
+	<body>
+		<h3>FICHA DE INSCRIPCIÓN</h3>
+		<hr>
+		</hr>
+		<center>
+		<form>
+		<label >DATOS PERSONALES</label>
+			<table>
+				<tr>
+					<td align="right" width="300">
+					NOMBRE:
+					</td>
+					<td>
+					<input type="text" name="nom" value="" size="40">	
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="300">
+					APELLIDO:
+					</td>
+					<td>
+					<input type="text" name="ape" value="" size="40">	
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="300">
+					SEXO:
+					</td>
+					<td>
+					<input type="radio" name="sexo" value="M" checked>MASCULINO
+					</td>
+				<tr>
+					<td></td>
+					<td>	
+					<input type="radio" name="sexo" value="F">FEMENINO	
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="300">
+					LUGAR DE NACIMIENTO:
+					</td>
+					<td width="300">
+						<select name="ciudad">
+							<option value="1">ASUNCIÓN</option>
+							<option value="2">CAAGUAZÚ</option>
+							<option value="3">CIUDAD DEL ESTE</option>
+							<option value="4" selected="">CORONEL OVIEDO</option>
+							<option value="5">VILLARRICA</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="300">
+					FECHA DE NACIMIENTO:
+					</td>
+					<td id="fecha">
+						<select name="dia">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25" selected="">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						<select name="mes">
+							<option value="1">Enero</option>
+							<option value="2">Febrero</option>
+							<option value="3">Marzo</option>
+							<option value="4">Abril</option>
+							<option value="5">Mayo</option>
+							<option value="6">Junio</option>
+							<option value="7">Julio</option>
+							<option value="8" selected="">Agosto</option>
+							<option value="9">Septiembre</option>
+							<option value="10">Octubre</option>
+							<option value="11">Noviembre</option>
+							<option value="12">Diciembre</option>
+						</select>
+						<select name="anio">
+							<option value="1">1980</option>
+							<option value="2">1981</option>
+							<option value="3">1982</option>
+							<option value="4">1983</option>
+							<option value="5">1984</option>
+							<option value="6">1985</option>
+							<option value="7">1986</option>
+							<option value="8" selected="">1987</option>
+							<option value="9">1988</option>
+							<option value="10">1989</option>
+							<option value="11">1990</option>
+							<option value="12">1991</option>
+							<option value="13">1992</option>
+							<option value="14">1993</option>
+							<option value="15">1994</option>
+							<option value="16">1995</option>
+							<option value="17">1996</option>
+							<option value="18">1997</option>
+							<option value="19">1998</option>
+							<option value="20">1999</option>
+							<option value="21">2000</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpiar">
+		</form>
+		</center>
+	</body>
+</html>
